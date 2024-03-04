@@ -8,5 +8,30 @@ public class Class04Operators {
         double result = number01 * (double) number02;
 
         System.out.println(result);
+
+        // %
+        int modulo = 20 % 2;
+        System.out.println(modulo);
+
+        // < > <= >= != ==
+        boolean isTenLowerThanTwenty = 10 < 20;
+        System.out.println("isTenLowerThanTwenty " + isTenLowerThanTwenty);
+
+        boolean isTenGreaterThanTwenty = 10 > 20;
+        System.out.println("isTenGreaterThanTwenty " + isTenGreaterThanTwenty);
+
+        boolean isTenLowerOrEqualsThanTwenty = 10 <= 20;
+        System.out.println("isTenLowerOrEqualsThanTwenty " + isTenLowerOrEqualsThanTwenty);
+
+        boolean isTenGreaterOrEqualsThanTwenty = 10 >= 20;
+        System.out.println("isTenGreaterOrEqualsThanTwenty " + isTenGreaterOrEqualsThanTwenty);
+
+        boolean isTenDifferentThanTwenty = 10 != 20;
+        System.out.println("isTenDifferentThanTwenty " + isTenDifferentThanTwenty);
+
+        boolean isTenEqualsThanTwenty = 10 == 20;
+        System.out.println("isTenEqualsThanTwenty " + isTenEqualsThanTwenty);
+
+
     }
 }
