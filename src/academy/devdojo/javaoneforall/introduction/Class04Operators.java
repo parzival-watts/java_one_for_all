@@ -70,7 +70,7 @@ public class Class04Operators {
         ++count; // count = count + 1
         --count; // count = count - 1
 
-        System.out.println(count);
+        System.out.println(++count);
 
 
     }
