@@ -27,8 +27,28 @@ public class Class05ConditionalStatements05 {
             case 7:
                 System.out.println("Sat");
                 break;
+            default:
+                System.out.println("Invalid");
+                break;
+        }
 
+        char gender = 'M';
+
+        switch(gender){
+            case 'M': {
+                System.out.println("Male");
+                break;
+            }
+            case 'F': {
+                System.out.println("Female");
+                break;
+            }
+            default: {
+                System.out.println("Invalid Option");
+                break;
+            }
         }
 
     }
+
 }
