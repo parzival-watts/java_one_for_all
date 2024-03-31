@@ -7,5 +7,6 @@ public class CalculatorTest03 {
         Calculator calculator = new Calculator();
         double result = calculator.divideTwoNumbers(10,2);
         System.out.println(result);
+        calculator.printTwoNumbersDivided(10,0);
     }
 }
