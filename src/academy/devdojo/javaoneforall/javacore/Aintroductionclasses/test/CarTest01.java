@@ -1,6 +1,6 @@
 package academy.devdojo.javaoneforall.javacore.Aintroductionclasses.test;
 
-import academy.devdojo.javaoneforall.javacore.Aintroductionclasses.Car;
+import academy.devdojo.javaoneforall.javacore.Aintroductionclasses.domain.Car;
 
 public class CarTest01 {
     public static void main(String[] args) {
